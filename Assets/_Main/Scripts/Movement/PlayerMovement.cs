@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody _rigidbody;
     private Vector3 _moveDirection;
-    private float _speed = 2f;
+    private float _speed = 4f;
 
 
     private void Start()
